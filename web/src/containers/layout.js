@@ -31,7 +31,7 @@ function LayoutContainer (props) {
           <Layout
             {...props}
             showNav={showNav}
-            siteTitle={data.site.title}
+            siteTitle="sina khalili portfolio home"
             onHideNav={handleHideNav}
             onShowNav={handleShowNav}
           />
