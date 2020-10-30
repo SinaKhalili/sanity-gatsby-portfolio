@@ -88,8 +88,8 @@ const IndexPage = props => {
     <Layout>
       <SEO title={site.title} description={site.description} keywords={site.keywords} />
       <Container>
-        <h1>Hey Dapper Labs! welcome to {site.title} 👌</h1>
-        <h3>If you are not from Axiom Zen, just know that I view all employers equally (but some are more equal than others)</h3>
+        <h1>Hey there, potential employers! welcome to {site.title} 👌</h1>
+        <h3>I hope you like my things and stuff as much as I like you being here 🤗</h3>
         {projectNodes && (
           <ProjectPreviewGrid
             title="Latest projects"
